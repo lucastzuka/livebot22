@@ -2,7 +2,7 @@ from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
 # Substitua 'your-slack-bot-token' pelo token do seu bot
-slack_token = 'xoxb-2219409494181-5240105927282-jdDgPDbfOwLxu13FJ3xstRJR'
+slack_token = 'xoxb...'
 
 # Inicializando o cliente do Slack
 client = WebClient(token=slack_token)

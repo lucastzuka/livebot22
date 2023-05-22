@@ -1,0 +1,47 @@
+display_information:
+  name: ℓiⱴεbot
+  description: "ℓiⱴεbot: seu assistente publicitário, nunca off-line."
+  background_color: "#121212"
+  long_description: "Conheça o ℓiⱴεbot! 🤖💬\r
+
+    \r
+
+    Nossa mais nova adição ao time, o ℓiⱴεbot, é uma mistura de inteligência artificial 🧠 e publicidade📝, sempre à disposição no Slack. Serve café ☕ com insights de marketing fresquinhos e analisa dados com uma precisão impressionante. Ele é incansável, trabalha 24/7, e ainda te lembra daquela reunião que você esqueceu!\r
+
+    \r
+
+    Apesar de sua eficiência, não se preocupe, ele ainda não aprendeu a fazer piadas de publicitários... ou será que aprendeu? 🤣 Então, bem-vindo ao futuro da agência - um lugar onde a IA e a criatividade se encontram.\r
+
+    \r
+
+    Se precisar de alguma coisa, é só chamar o ℓiⱴεbot. Ele está sempre online, porque a vida é ao vivo! 👋👽"
+features:
+  app_home:
+    home_tab_enabled: false
+    messages_tab_enabled: true
+    messages_tab_read_only_enabled: false
+  bot_user:
+    display_name: ChatGPT Bot (dev)
+    always_online: true
+oauth_config:
+  scopes:
+    bot:
+      - app_mentions:read
+      - channels:history
+      - groups:history
+      - im:history
+      - mpim:history
+      - chat:write.public
+      - chat:write
+      - users:read
+settings:
+  event_subscriptions:
+    bot_events:
+      - app_mention
+      - message.channels
+      - message.groups
+      - message.im
+      - message.mpim
+  interactivity:
+    is_enabled: true
+  socket_mode_enabled: true
